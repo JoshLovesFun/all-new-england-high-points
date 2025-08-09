@@ -1,6 +1,7 @@
 [
   {
-    "name": "Newburyport",
+    "Municipality": "Newburyport",
+    "Name": "Castle Hill",
     "latitude": 42.8347,
     "longitude": -70.9230,
     "height_m": 47.6,
@@ -9,7 +10,8 @@
     "photos_link": "images/dummy.jpg"
   },
   {
-    "name": "West Newbury",
+    "Municipality": "West Newbury",
+    "Name": "Unknown or Not Available",
     "latitude": null,
     "longitude": null,
     "height_m": null,

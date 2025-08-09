@@ -48,14 +48,20 @@
       .then(data => {
         const tbody = document.querySelector('#pointsTable tbody');
         data.forEach(item => {
+          const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude;
+          const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude;
+          const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m;
+          const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft;
+          const what3words = item.what3words || "Josh will provide soon";
+
           const row = document.createElement('tr');
           row.innerHTML = `
             <td>${item.name}</td>
-            <td>${item.latitude}</td>
-            <td>${item.longitude}</td>
-            <td>${item.height_m}</td>
-            <td>${item.height_ft}</td>
-            <td><a href="https://what3words.com/${item.what3words}" target="_blank">${item.what3words}</a></td>
+            <td>${latitude}</td>
+            <td>${longitude}</td>
+            <td>${height_m}</td>
+            <td>${height_ft}</td>
+            <td><a href="https://what3words.com/${what3words}" target="_blank">${what3words}</a></td>
             <td><a href="${item.photos_link}" target="_blank">Photos</a></td>
           `;
           tbody.appendChild(row);

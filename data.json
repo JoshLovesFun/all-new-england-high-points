@@ -1,7 +1,8 @@
 [
   {
-    "Municipality": "Newburyport",
-    "Name": "Castle Hill",
+    "state": "Massachusetts",
+    "municipality": "Newburyport",
+    "name": "Castle Hill",
     "latitude": 42.8347,
     "longitude": -70.9230,
     "height_m": 47.6,
@@ -10,8 +11,64 @@
     "photos_link": "images/dummy.jpg"
   },
   {
-    "Municipality": "West Newbury",
-    "Name": "Unknown or Not Available",
+    "state": "Massachusetts",
+    "municipality": "West Newbury",
+    "name": "Unknown or Not Available",
+    "latitude": null,
+    "longitude": null,
+    "height_m": null,
+    "height_ft": null,
+    "what3words": "Josh will provide soon",
+    "photos_link": "images/dummy.jpg"
+  },
+  {
+    "state": "Connecticut",
+    "municipality": "Sample Town",
+    "name": "Josh will provide soon",
+    "latitude": null,
+    "longitude": null,
+    "height_m": null,
+    "height_ft": null,
+    "what3words": "Josh will provide soon",
+    "photos_link": "images/dummy.jpg"
+  },
+  {
+    "state": "Maine",
+    "municipality": "Sample Town",
+    "name": "Josh will provide soon",
+    "latitude": null,
+    "longitude": null,
+    "height_m": null,
+    "height_ft": null,
+    "what3words": "Josh will provide soon",
+    "photos_link": "images/dummy.jpg"
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Sample Town",
+    "name": "Josh will provide soon",
+    "latitude": null,
+    "longitude": null,
+    "height_m": null,
+    "height_ft": null,
+    "what3words": "Josh will provide soon",
+    "photos_link": "images/dummy.jpg"
+  },
+  {
+    "state": "Rhode Island",
+    "municipality": "Sample Town",
+    "name": "Josh will provide soon",
+    "latitude": null,
+    "longitude": null,
+    "height_m": null,
+    "height_ft": null,
+    "what3words": "Josh will provide soon",
+    "photos_link": "images/dummy.jpg"
+  },
+  {
+    "state": "Vermont",
+    "municipality": "Sample Town",
+    "name": "Josh will provide soon",
     "latitude": null,
     "longitude": null,
     "height_m": null,

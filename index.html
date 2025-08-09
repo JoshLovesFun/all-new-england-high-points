@@ -1,82 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Highest Point in Each New England Municipality</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 80%;
-      margin: 20px auto;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-  </style>
-</head>
-<body>
-  <h1 style="text-align:center;">Highest Point in Each New England Municipality</h1>
+<script>
+fetch('data.json')
+  .then(response => response.json())
+  .then(data => {
+    // Group by state
+    const states = {};
+    data.forEach(item => {
+      if (!states[item.state]) {
+        states[item.state] = [];
+      }
+      states[item.state].push(item);
+    });
 
-  <p style="max-width: 90%; margin: 0 auto 20px auto; padding: 0 10px; font-size: 1.1em; font-style: normal; line-height: 1.4; box-sizing: border-box; text-align: center;">
-    This data was created based on 1/3 arc second USGS DEM data (~ 10 meter resolution) and I will keep updating it over the coming weeks.
-  </p>
+    // Sort states alphabetically
+    const sortedStates = Object.keys(states).sort();
 
-  <p style="max-width: 90%; margin: 0 auto 20px auto; padding: 0 10px; font-size: 1.1em; font-style: normal; line-height: 1.4; box-sizing: border-box; text-align: center;">
-    The What3Words location is approximate because my GPS phone app’s accuracy is about 5 meters.
-  </p>
+    const container = document.body;
 
-  <p style="max-width: 90%; margin: 0 auto 20px auto; padding: 0 10px; font-size: 1.1em; font-style: normal; line-height: 1.4; box-sizing: border-box; text-align: center;">
-    It is expected that this list will take 10 years to complete. Please be patient. If you have a request for a specific municipality, please email me at: ihtftl@gmail.com
-  </p>
+    sortedStates.forEach(state => {
+      // State heading
+      const heading = document.createElement('h2');
+      heading.textContent = state;
+      heading.style.textAlign = "center";
+      container.appendChild(heading);
 
+      // Create table
+      const table = document.createElement('table');
+      table.style.borderCollapse = "collapse";
+      table.style.width = "80%";
+      table.style.margin = "20px auto";
+      table.innerHTML = `
+        <thead>
+          <tr>
+            <th>Municipality</th>
+            <th>Name</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Height (m)</th>
+            <th>Height (ft)</th>
+            <th>What3Words</th>
+            <th>Photos</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      `;
+      container.appendChild(table);
 
-  <table id="pointsTable">
-    <thead>
-      <tr>
-        <th>Municipality</th>
-        <th>Name</th>
-        <th>Latitude</th>
-        <th>Longitude</th>
-        <th>Height (m)</th>
-        <th>Height (ft)</th>
-        <th>What3Words</th>
-        <th>Photos</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+      const tbody = table.querySelector('tbody');
 
-  <script>
-    fetch('data.json')
-      .then(response => response.json())
-      .then(data => {
-        const tbody = document.querySelector('#pointsTable tbody');
-        data.forEach(item => {
-          const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude;
-          const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude;
-          const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m;
-          const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft;
-          const what3words = item.what3words || "Josh will provide soon";
+      // Fill table rows
+      states[state].forEach(item => {
+        const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude;
+        const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude;
+        const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m;
+        const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft;
+        const what3words = item.what3words || "Josh will provide soon";
 
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${item.Municipality}</td>
-            <td>${item.Name}</td>
-            <td>${latitude}</td>
-            <td>${longitude}</td>
-            <td>${height_m}</td>
-            <td>${height_ft}</td>
-            <td><a href="https://what3words.com/${what3words}" target="_blank">${what3words}</a></td>
-            <td><a href="${item.photos_link}" target="_blank">Photos</a></td>
-          `;
-          tbody.appendChild(row);
-        });
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${item.municipality}</td>
+          <td>${item.name}</td>
+          <td>${latitude}</td>
+          <td>${longitude}</td>
+          <td>${height_m}</td>
+          <td>${height_ft}</td>
+          <td><a href="https://what3words.com/${what3words}" target="_blank">${what3words}</a></td>
+          <td><a href="${item.photos_link}" target="_blank">Photos</a></td>
+        `;
+        tbody.appendChild(row);
       });
-  </script>
-</body>
-</html>
+    });
+  });
+</script>

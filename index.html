@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Highest Point in Each New England Municipality</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Highest Point in Each New England Municipality</h1>
+
+  <table id="pointsTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Height (m)</th>
+        <th>Height (ft)</th>
+        <th>What3Words</th>
+        <th>Photos</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const tbody = document.querySelector('#pointsTable tbody');
+        data.forEach(item => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${item.name}</td>
+            <td>${item.latitude}</td>
+            <td>${item.longitude}</td>
+            <td>${item.height_m}</td>
+            <td>${item.height_ft}</td>
+            <td><a href="https://what3words.com/${item.what3words}" target="_blank">${item.what3words}</a></td>
+            <td><a href="${item.photos_link}" target="_blank">Photos</a></td>
+          `;
+          tbody.appendChild(row);
+        });
+      });
+  </script>
+</body>
+</html>

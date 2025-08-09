@@ -66,13 +66,29 @@
 
   <script>
     function openPhotos(photos) {
-      const content = photos.map(src => `<img src="${src}" style="max-width:100%; margin-bottom:10px;">`).join('');
-      const win = window.open('', '_blank', 'width=600,height=800,scrollbars=yes');
+      // Generate the HTML content with onerror fallback to dummy.jpg
+      const content = photos.map(src => `
+        <img src="${src}" style="max-width:100%; margin-bottom:10px;" 
+            onerror="this.onerror=null;this.src='images/dummy.jpg';" alt="Photo not available">
+      `).join('');
+
+      // Open a new tab
+      const win = window.open('', '_blank');
+
+      // Write the content into the new tab
       win.document.write(`
-        <html><head><title>Photos</title></head>
-        <body style="margin:10px; font-family: Arial, sans-serif;">
-          ${content}
-        </body></html>
+        <html>
+          <head>
+            <title>Photos</title>
+            <style>
+              body { margin: 10px; font-family: Arial, sans-serif; }
+              img { display: block; max-width: 100%; margin-bottom: 10px; }
+            </style>
+          </head>
+          <body>
+            ${content}
+          </body>
+        </html>
       `);
       win.document.close();
     }

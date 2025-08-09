@@ -1,11 +1,20 @@
 [
   {
     "name": "Newburyport",
-    "latitude": 42.8123,
-    "longitude": -70.8734,
-    "height_m": 44,
-    "height_ft": 87,
-    "what3words": "filled.count.soap",
+    "latitude": 42.8347,
+    "longitude": -70.9230,
+    "height_m": 47.6,
+    "height_ft": 156.2,
+    "what3words": "Josh will provide soon",
+    "photos_link": "images/dummy.jpg"
+  },
+  {
+    "name": "West Newbury",
+    "latitude": null,
+    "longitude": null,
+    "height_m": null,
+    "height_ft": null,
+    "what3words": "Josh will provide soon",
     "photos_link": "images/dummy.jpg"
   }
 ]

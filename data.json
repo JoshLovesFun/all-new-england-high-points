@@ -1,15 +1,19 @@
 [
-  {
-    "state": "Massachusetts",
-    "municipality": "Newburyport",
-    "name": "Castle Hill",
-    "latitude": 42.8347,
-    "longitude": -70.9230,
-    "height_m": 47.6,
-    "height_ft": 156.2,
-    "what3words": "Josh will provide soon",
-    "photos_link": "images/dummy.jpg"
-  },
+{
+  "state": "Massachusetts",
+  "municipality": "Newburyport",
+  "name": "Castle Hill",
+  "latitude": 42.8347,
+  "longitude": -70.9230,
+  "height_m": 47.6,
+  "height_ft": 156.2,
+  "what3words": "Josh will provide soon",
+  "photos_link": [
+    "images/MA/Newburyport/picture1.jpg",
+    "images/MA/Newburyport/picture2.jpg",
+    "images/MA/Newburyport/picture3.jpg"
+  ]
+},
   {
     "state": "Massachusetts",
     "municipality": "West Newbury",

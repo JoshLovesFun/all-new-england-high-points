@@ -107,27 +107,32 @@
 
           const tbody = table.querySelector('tbody');
 
-          // Fill table rows
-          states[state].forEach(item => {
-            const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude;
-            const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude;
-            const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m;
-            const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft;
-            const what3words = item.what3words || "Josh will provide soon";
+        // Fill table rows
+        states[state].forEach(item => {
+          const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude;
+          const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude;
+          const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m;
+          const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft;
 
-            const row = document.createElement('tr');
-            row.innerHTML = `
-              <td>${item.municipality}</td>
-              <td>${item.name}</td>
-              <td>${latitude}</td>
-              <td>${longitude}</td>
-              <td>${height_m}</td>
-              <td>${height_ft}</td>
-              <td>${what3words === "Josh will provide soon" ? what3words : `<a href="https://what3words.com/${what3words}" target="_blank">${what3words}</a>`}</td>
-              <td><a href="${item.photos_link}" target="_blank">Photos</a></td>
-            `;
-            tbody.appendChild(row);
-          });
+          const what3words = item.what3words || "Josh will provide soon";
+          const w3wDisplay = what3words;
+          const w3wLink = what3words === "Josh will provide soon" 
+            ? null 
+            : `https://what3words.com/${encodeURIComponent(what3words.replace(/\s+/g, '.'))}`;
+
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${item.municipality}</td>
+            <td>${item.name}</td>
+            <td>${latitude}</td>
+            <td>${longitude}</td>
+            <td>${height_m}</td>
+            <td>${height_ft}</td>
+            <td>${w3wLink ? `<a href="${w3wLink}" target="_blank">${w3wDisplay}</a>` : w3wDisplay}</td>
+            <td><a href="${item.photos_link}" target="_blank">Photos</a></td>
+          `;
+          tbody.appendChild(row);
+        });
         });
       });
   </script>

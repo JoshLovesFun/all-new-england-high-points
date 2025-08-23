@@ -137,10 +137,10 @@
 
           // Fill table rows
           states[state].forEach(item => {
-            const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude;
-            const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude;
-            const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m;
-            const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft;
+            const latitude = item.latitude === null ? "Josh will provide soon" : item.latitude.toFixed(4);
+            const longitude = item.longitude === null ? "Josh will provide soon" : item.longitude.toFixed(4);
+            const height_m = item.height_m === null ? "Josh will provide soon" : item.height_m.toFixed(1);
+            const height_ft = item.height_ft === null ? "Josh will provide soon" : item.height_ft.toFixed(1);
 
             const what3words = item.what3words || "Josh will provide soon";
             const w3wDisplay = what3words;

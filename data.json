@@ -51,7 +51,46 @@
     "longitude": -71.0052,
     "height_m": 78.7,
     "height_ft": 258.2,
-    "what3words": "filled.count.soap",
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Amesbury",
+    "name": "Powwow Hill",
+    "latitude": 42.8659,
+    "longitude": -70.9382,
+    "height_m": 101.1,
+    "height_ft": 331.7,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Newbury",
+    "name": "Old Town Hill",
+    "latitude": 42.7688,
+    "longitude": -70.8497,
+    "height_m": 50.9,
+    "height_ft": 167.0,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Salisbury",
+    "name": "Grape Hill",
+    "latitude": 42.8861,
+    "longitude": -70.9093,
+    "height_m": 72.2,
+    "height_ft": 236.9,
+    "what3words": "Josh will provide soon",
     "photos_link": [
       "images/dummy.jpg"
     ]

@@ -46,11 +46,11 @@
   {
     "state": "Massachusetts",
     "municipality": "West Newbury",
-    "name": "Unknown or Not Available",
-    "latitude": null,
-    "longitude": null,
-    "height_m": null,
-    "height_ft": null,
+    "name": "Brake Hill",
+    "latitude": 42.7796,
+    "longitude": -71.0052,
+    "height_m": 78.7,
+    "height_ft": 258.2,
     "what3words": "filled.count.soap",
     "photos_link": [
       "images/dummy.jpg"

@@ -109,6 +109,84 @@
     ]
   },
   {
+    "state": "Massachusetts",
+    "municipality": "Merrimac",
+    "name": "Red Oak Hill",
+    "latitude": 42.8436,
+    "longitude": -71.0266,
+    "height_m": 96.0,
+    "height_ft": 315.0,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Chelmsford",
+    "name": "Robbins Hill",
+    "latitude": 42.5850,
+    "longitude": -71.3649,
+    "height_m": 124.0,
+    "height_ft": 406.8,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Haverhill",
+    "name": "Ayers Hill",
+    "latitude": 42.8075,
+    "longitude": -71.0538,
+    "height_m": 103.5,
+    "height_ft": 339.6,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Groveland",
+    "name": "Crow Hill",
+    "latitude": 42.7751,
+    "longitude": -71.0050,
+    "height_m": 76.6,
+    "height_ft": 251.3,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Georgetown",
+    "name": "Baldpate Hill",
+    "latitude": 42.7079,
+    "longitude": -71.0150,
+    "height_m": 106.8,
+    "height_ft": 350.4,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Rowley",
+    "name": "Prospect Hill",
+    "latitude": 42.7050,
+    "longitude": -70.8919,
+    "height_m": 81.6,
+    "height_ft": 267.7,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
     "state": "New Hampshire",
     "municipality": "Hancock",
     "name": "Skatutakee Mountain",
@@ -116,6 +194,32 @@
     "longitude": -72.0362,
     "height_m": 608.8,
     "height_ft": 1997.4,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "South Hampton",
+    "name": "Chair Hill",
+    "latitude": 42.8872,
+    "longitude": -70.9482,
+    "height_m": 99.9,
+    "height_ft": 327.8,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Seabrook",
+    "name": "Grape Hill",
+    "latitude": 42.8867,
+    "longitude": -70.9098,
+    "height_m": 68.7,
+    "height_ft": 225.4,
     "what3words": "Josh will provide soon",
     "photos_link": [
       "images/dummy.jpg"

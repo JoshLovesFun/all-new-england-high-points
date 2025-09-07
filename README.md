@@ -1,2 +1,2 @@
-Listing the highest points of all municipalities in New England.
-This list is not complete and I will be slowly adding to it.
+Listing the highest point in each New England town or equivalent area.
+This list is not yet complete, and I will be gradually updating it over time.

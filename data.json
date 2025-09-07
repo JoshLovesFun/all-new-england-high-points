@@ -51,9 +51,13 @@
     "longitude": -71.0052,
     "height_m": 78.7,
     "height_ft": 258.2,
-    "what3words": "Josh will provide soon",
+    "what3words": "pigeons.viewfinder.commented",
     "photos_link": [
-      "images/dummy.jpg"
+      "images/MA/West Newbury/1.jpg",
+      "images/MA/West Newbury/2.jpg",
+      "images/MA/West Newbury/3.jpg",
+      "images/MA/West Newbury/4.jpg",
+      "images/MA/West Newbury/5.jpg"
     ]
   },
   {
@@ -64,9 +68,14 @@
     "longitude": -70.9382,
     "height_m": 101.1,
     "height_ft": 331.7,
-    "what3words": "Josh will provide soon",
+    "what3words": "tall.upon.dawn",
     "photos_link": [
-      "images/dummy.jpg"
+      "images/MA/Amesbury/1.jpg",
+      "images/MA/Amesbury/2.jpg",
+      "images/MA/Amesbury/3.jpg",
+      "images/MA/Amesbury/4.jpg",
+      "images/MA/Amesbury/5.jpg",
+      "images/MA/Amesbury/6.jpg"
     ]
   },
   {
@@ -90,19 +99,23 @@
     "longitude": -70.9093,
     "height_m": 72.2,
     "height_ft": 236.9,
-    "what3words": "Josh will provide soon",
+    "what3words": "cowboys.cloudy.scares",
     "photos_link": [
-      "images/dummy.jpg"
+      "images/MA/Salisbury/1.jpg",
+      "images/MA/Salisbury/2.jpg",
+      "images/MA/Salisbury/3.jpg",
+      "images/MA/Salisbury/4.jpg",
+      "images/MA/Salisbury/5.jpg"
     ]
   },
   {
     "state": "New Hampshire",
-    "municipality": "Sample Town",
-    "name": "Josh will provide soon",
-    "latitude": null,
-    "longitude": null,
-    "height_m": null,
-    "height_ft": null,
+    "municipality": "Hancock",
+    "name": "Skatutakee Mountain",
+    "latitude": 42.9688,
+    "longitude": -72.0362,
+    "height_m": 608.8,
+    "height_ft": 1997.4,
     "what3words": "Josh will provide soon",
     "photos_link": [
       "images/dummy.jpg"

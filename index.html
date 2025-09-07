@@ -109,6 +109,9 @@
         const sortedStates = Object.keys(states).sort();
 
         sortedStates.forEach(state => {
+          // Sort municipalities alphabetically within each state
+          states[state].sort((a, b) => a.municipality.localeCompare(b.municipality));
+
           // State heading
           const heading = document.createElement('h2');
           heading.textContent = state;

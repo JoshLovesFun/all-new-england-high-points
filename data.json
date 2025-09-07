@@ -1,7 +1,7 @@
 [
   {
     "state": "Connecticut",
-    "municipality": "Sample Town",
+    "municipality": "Sample Community",
     "name": "Josh will provide soon",
     "latitude": null,
     "longitude": null,
@@ -14,7 +14,7 @@
   },
   {
     "state": "Maine",
-    "municipality": "Sample Town",
+    "municipality": "Sample Community",
     "name": "Josh will provide soon",
     "latitude": null,
     "longitude": null,
@@ -227,7 +227,7 @@
   },
   {
     "state": "Rhode Island",
-    "municipality": "Sample Town",
+    "municipality": "Sample Community",
     "name": "Josh will provide soon",
     "latitude": null,
     "longitude": null,
@@ -240,7 +240,7 @@
   },
   {
     "state": "Vermont",
-    "municipality": "Sample Town",
+    "municipality": "Sample Community",
     "name": "Josh will provide soon",
     "latitude": null,
     "longitude": null,

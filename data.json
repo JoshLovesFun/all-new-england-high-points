@@ -200,9 +200,12 @@
     "longitude": -70.8919,
     "height_m": 81.6,
     "height_ft": 267.7,
-    "what3words": "Josh will provide soon",
+    "what3words": "telephones.enhances.daunting",
     "photos_link": [
-      "images/dummy.jpg"
+      "images/MA/Rowley/1.jpg",
+      "images/MA/Rowley/2.jpg",
+      "images/MA/Rowley/3.jpg",
+      "images/MA/Rowley/4.jpg"
     ]
   },
   {
@@ -287,6 +290,100 @@
       "images/NH/Seabrook/3.jpg",
       "images/NH/Seabrook/4.jpg",
       "images/NH/Seabrook/5.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Beans Grant",
+    "name": "Mount Pierce",
+    "latitude": 44.2269,
+    "longitude": -71.3658,
+    "height_m": 1314.1,
+    "height_ft": 4311.4,
+    "what3words": "composed.feuds.navigated",
+    "photos_link": [
+      "images/NH/Beans_Grant/1.jpg",
+      "images/NH/Beans_Grant/2.jpg",
+      "images/NH/Beans_Grant/3.jpg",
+      "images/NH/Beans_Grant/4.jpg",
+      "images/NH/Beans_Grant/5.jpg",
+      "images/NH/Beans_Grant/6.jpg",
+      "images/NH/Beans_Grant/7.jpg",
+      "images/NH/Beans_Grant/8.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Chandlers Purchase",
+    "name": "Mount Eisenhower",
+    "latitude": 44.2407,
+    "longitude": -71.3503,
+    "height_m": 1450.6,
+    "height_ft": 4759.2,
+    "what3words": "leasing.history.furious",
+    "photos_link": [
+      "images/NH/Chandlers_Purchase/1.jpg",
+      "images/NH/Chandlers_Purchase/2.jpg",
+      "images/NH/Chandlers_Purchase/3.jpg",
+      "images/NH/Chandlers_Purchase/4.jpg",
+      "images/NH/Chandlers_Purchase/5.jpg",
+      "images/NH/Chandlers_Purchase/6.jpg",
+      "images/NH/Chandlers_Purchase/7.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Alton",
+    "name": "North Straightback Mountain",
+    "latitude": 43.5114,
+    "longitude": -71.3032,
+    "height_m": 581.5,
+    "height_ft": 1907.8,
+    "what3words": "perhaps.moon.shirts",
+    "photos_link": [
+      "images/NH/Alton/1.jpg",
+      "images/NH/Alton/2.jpg",
+      "images/NH/Alton/3.jpg",
+      "images/NH/Alton/4.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Jaffrey",
+    "name": "Mount Monadnock",
+    "latitude": 42.8613,
+    "longitude": -72.1082,
+    "height_m": 964.8,
+    "height_ft": 3165.4,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Albany",
+    "name": "Mount Chocorua",
+    "latitude": 43.9543,
+    "longitude": -71.2733,
+    "height_m": 1063.2,
+    "height_ft": 3488.2,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Albany",
+    "name": "Mount Chocorua",
+    "latitude": 43.9543,
+    "longitude": -71.2733,
+    "height_m": 1063.2,
+    "height_ft": 3488.2,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
     ]
   },
   {

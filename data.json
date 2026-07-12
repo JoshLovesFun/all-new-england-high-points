@@ -187,9 +187,30 @@
     "longitude": -71.0150,
     "height_m": 106.8,
     "height_ft": 350.4,
-    "what3words": "Josh will provide soon",
+    "what3words": "exiled.lawful.notify",
     "photos_link": [
-      "images/dummy.jpg"
+       "images/MA/Georgetown/1.jpg",
+       "images/MA/Georgetown/2.jpg",
+       "images/MA/Georgetown/3.jpg",
+       "images/MA/Georgetown/4.jpg",
+       "images/MA/Georgetown/5.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Lawrence",
+    "name": "Tower Hill",
+    "latitude": 42.7077,
+    "longitude": -71.1858,
+    "height_m": 77.3,
+    "height_ft": 253.6,
+    "what3words": "exiled.lawful.notify",
+    "photos_link": [
+       "images/MA/Georgetown/1.jpg",
+       "images/MA/Georgetown/2.jpg",
+       "images/MA/Georgetown/3.jpg",
+       "images/MA/Georgetown/4.jpg",
+       "images/MA/Georgetown/5.jpg"
     ]
   },
   {
@@ -355,9 +376,13 @@
     "longitude": -72.1082,
     "height_m": 964.8,
     "height_ft": 3165.4,
-    "what3words": "Josh will provide soon",
+    "what3words": "nightlife.pills.becomes",
     "photos_link": [
-      "images/dummy.jpg"
+      "images/NH/Jaffrey/1.jpg",
+      "images/NH/Jaffrey/2.jpg",
+      "images/NH/Jaffrey/3.jpg",
+      "images/NH/Jaffrey/4.jpg",
+      "images/NH/Jaffrey/5.jpg"
     ]
   },
   {
@@ -368,9 +393,14 @@
     "longitude": -71.2733,
     "height_m": 1063.2,
     "height_ft": 3488.2,
-    "what3words": "Josh will provide soon",
+    "what3words": "mopped.refurbish.performance",
     "photos_link": [
-      "images/dummy.jpg"
+      "images/NH/Albany/1.jpg",
+      "images/NH/Albany/2.jpg",
+      "images/NH/Albany/3.jpg",
+      "images/NH/Albany/4.jpg",
+      "images/NH/Albany/5.jpg",
+      "images/NH/Albany/6.jpg"
     ]
   },
   {

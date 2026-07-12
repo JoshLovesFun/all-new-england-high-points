@@ -265,6 +265,32 @@
     ]
   },
   {
+    "state": "Massachusetts",
+    "municipality": "Ipswich",
+    "name": "Turner Hill",
+    "latitude": 42.6662,
+    "longitude": -70.8903,
+    "height_m": 81.5,
+    "height_ft": 267.4,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "municipality": "Boxford",
+    "name": "Bayns Hill",
+    "latitude": 42.6932,
+    "longitude": -71.0419,
+    "height_m": 102.3,
+    "height_ft": 335.6,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
     "state": "New Hampshire",
     "municipality": "Hancock",
     "name": "Skatutakee Mountain",
@@ -412,6 +438,19 @@
     "longitude": -71.1793,
     "height_m": 1474.6,
     "height_ft": 4837.9,
+    "what3words": "Josh will provide soon",
+    "photos_link": [
+      "images/dummy.jpg"
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "municipality": "Newton",
+    "name": "Sargent Hill",
+    "latitude": 42.8621,
+    "longitude": -71.0478,
+    "height_m": 86.6,
+    "height_ft": 284.1,
     "what3words": "Josh will provide soon",
     "photos_link": [
       "images/dummy.jpg"
